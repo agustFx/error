@@ -15,14 +15,14 @@ header, footer {
   .index-encabezado h2 {
     font-size: 1.5rem; }
 
-.mainUs-text .mainUs-item {
+.us-text .us-item {
   color: lightslategrey;
   font-size: 7rem; }
 
-.mainUs-text span {
+.us-text span {
   color: lightsteelblue; }
 
-.mainUs-text .mainUs-itemtwo {
+.us-text .mainUs-itemtwo {
   color: white;
   font-size: 1.2rem; }
 
@@ -102,6 +102,30 @@ h1, h2, .mainUs-itemtwo, label, span {
 .main-index, .main-us, .main-review, .main-helpcenter, .main-socialmedia {
   padding: 3rem;
   margin: 0; }
+
+@media (max-width: 768px) {
+  .logo {
+    width: 14rem; }
+  .img-index {
+    width: 20rem; }
+  .index-encabezado h1 {
+    font-size: 1rem; }
+  .index-encabezado h2 {
+    font-size: 0.8rem; }
+  .boton, .botonenviar, .botonreset {
+    background-color: none;
+    color: black;
+    font-size: 16px;
+    border-radius: none;
+    float: left;
+    border: none; }
+  .main-us {
+    margin: 0;
+    padding: 0.5rem; }
+  .us-item, .us-itemspecial {
+    font-size: 1rem; }
+  .helpcenter-encabezadoA, .helpcenter-encabezadoB, .helpcenter-encabezadoC, .helpcenter-encabezadoB, .helpcenter-encabezadoC {
+    font-size: 1.5rem; } }
 
 footer {
   padding: 3rem; }

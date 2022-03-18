@@ -1,0 +1,35 @@
+@media (max-width: 768px){
+    .logo {
+    width: 14rem;
+    }
+    .img-index {
+    width: 20rem;
+    }
+    .index-encabezado h1 {
+        font-size: 1rem;
+    }
+    .index-encabezado h2 {
+        font-size: 0.8rem;
+    }
+    .boton{
+        background-color: none;
+        color: black;
+        font-size: 16px;
+        border-radius: none;
+        float: left;
+        border: none;
+    }
+
+    .main-us{
+        margin: 0;
+        padding: 0.5rem;
+    }
+
+    .us-item, .us-itemspecial{
+        font-size: 1rem;
+    }
+
+    .helpcenter-encabezadoA, .helpcenter-encabezadoB, .helpcenter-encabezadoC{
+        font-size: 1.5rem;
+    }
+}
