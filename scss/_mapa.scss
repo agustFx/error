@@ -1,0 +1,27 @@
+$bgimagenes:(
+    index-body: url(../assets/img/bg-5.JPEG),
+    us-body: url(../assets/img/bg-4.JPEG),
+    review-body: url(../assets/img/bg-7.JPEG),
+    helpcenter-body: url(../assets/img/bg-11.JPEG),
+    socialmedia-body: url(../assets/img/bg-12.JPEG)
+);
+
+@each $backgroundimg, $img in $bgimagenes{
+	.#{$backgroundimg}{
+		background-image: $img;
+	}
+}
+
+$estilo:(
+	attachment: fixed,
+	position: center,
+	repeat: no-repeat,
+	size: cover
+);
+
+.index-body, .us-body, .review-body, .helpcenter-body, .socialmedia-body{
+	background-attachment: map-get($estilo,attachment);
+	background-position: map-get($estilo,position);
+	background-repeat: map-get($estilo,repeat);
+	background-size: map-get($estilo,size);
+}

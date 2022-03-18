@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Espacio para dejar tu reseña sobre la app.">
+    <meta name="keywords" content="autoayuda colorfavorito emociones">
+    <title>BlueSeen | Review</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body class="review-body">
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-12">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="us.html"><img src="../assets/img/logo_bearwhite.PNG" alt="logo.bear"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a></li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="../views/us.html">Us</a></li>
+                            <li class="nav-item active">
+                            <a class="nav-link" href="review.html">Review<span class="sr-only">(current)</span></a></li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="../views/helpcenter.html">HelpCenter</a></li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="../views/socialmedia.html">SocialMedia</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container-fluid main-review">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-12 review-title d-flex justify-content-center">
+                <h2 class="review-item">Contanos para que podamos seguir mejorando tu experiencia BlueSeen!</h2>
+            </div>
+       
+            <div class="col-lg-12 col-md-12 col-12 review-img d-flex justify-content-center"  data-aos="fade-up"data-aos-anchor-placement="top-bottom">
+                <img src="../assets/img/imgreview.jpg" alt="review-imgg" style="width: 22rem">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-12">
+                <input type="text" class="form-control" placeholder="Name" aria-label="First name">
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-12">
+                <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-12">
+                <div class="form-floating">
+                  <label for="floatingSelect" class="review-itemtwo">I identify with...</label>
+                  <select class="form-select" id="floatingSelect" aria-label="Floating label select">
+                      <option selected>Gender</option>
+                      <option value="1">Female</option>
+                      <option value="2">Male</option>
+                      <option value="3">Non-binary gender</option>
+                      <option value="4">I prefer not to say</option>
+                      </select>
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-1">
+                <div class="form-floating">
+                  <label for="floatingSelect" class="review-itemtwo">My mood right now is...</label>
+                  <select class="form-select" id="floatingSelect" aria-label="Floating label select">
+                       <option selected>Mood</option>
+                       <option value="1">Sad</option>
+                       <option value="2">Angry</option>
+                       <option value="3">Disappointed</option>
+                       <option value="4">Thoughtful</option>
+                       <option value="5">Quiet</option>
+                       <option value="6">Satisfied</option>
+                       <option value="7">Contented</option>
+                       <option value="8">Cheerful</option>
+                       <option value="9">Happy</option>
+                       <option value="10">Neutral</option>
+                   </select>
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-1">
+                <div class="form-floating">
+                  <label for="floatingSelect" class="review-itemtwo">My favorite color is inside...</label>
+                  <select class="form-select" id="floatingSelect" aria-label="Floating label select">
+                       <option selected>Color Palette</option>
+                       <option value="1">The red palette</option>
+                       <option value="2">The orange palette</option>
+                       <option value="3">The yellow palette</option>
+                       <option value="4">The green palette</option>
+                       <option value="5">The blue palette</option>
+                       <option value="6">The violet palette</option>
+                       <option value="7">The pink palette</option>
+                       <option value="8">The white palette</option>
+                       <option value="9">The black palette</option>
+                  </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-12">
+                <label for="exampleColorInput" class="form-label review-itemtwo">Specify us!</label>
+                <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Choose your color">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-12">
+                <div class="form-floating">
+                    <label for="floatingTextarea2" class="review-itemtwo">Are you satisfied with the app? Tell us the reasons!</label>
+                    <textarea class="form-control" placeholder="" id="floatingTextarea"></textarea>
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-12">
+                <div class="form-floating">
+                    <label for="floatingTextarea2" class="review-itemtwo">Do you think we could improve something?</label>
+                    <textarea class="form-control" placeholder="" id="floatingTextarea"></textarea>
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-12">
+                <div class="form-floating">
+                    <label for="floatingTextarea2" class="review-itemtwo">Any experience with us that you want to share? We love reading you all!</label>
+                    <textarea class="form-control" placeholder="" id="floatingTextarea"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-12 pointer review-bottons">
+                <input type="submit" name="ENVIAR" class="boton botonenviar">
+                <input type="reset" name="BORRAR" class="boton botonreset">
+            </div>
+        </div>   
+    </main>
+
+    <footer class="container-fluid d-flex justify-content-center">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-4">
+                <a href="https://www.instagram.com" target="blank"><img src="https://icongr.am/entypo/instagram-with-circle.svg?size=68&color=ffffff"></a>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-4">
+                <a href="https://es-la.facebook.com" target="blank"><img src="https://icongr.am/entypo/facebook-with-circle.svg?size=68&color=ffffff"></a>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-4">
+                <a href="https://twitter.com" target="blank"><img src="https://icongr.am/entypo/twitter-with-circle.svg?size=68&color=ffffff"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+</body>
+</html>

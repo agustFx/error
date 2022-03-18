@@ -1,0 +1,36 @@
+.helpcenter-encabezadoA{
+	color: $colorSix;
+	font-size: 5rem;
+}
+
+.helpcenter-encabezadoB{
+	@extend .helpcenter-encabezadoA;
+	color: $colorFive;
+
+}
+
+.helpcenter-encabezadoC{
+	@extend .helpcenter-encabezadoA;
+	color: $colorSeven;
+}
+
+.boton{
+	background-color: $colorSeven;
+    color: black;
+    padding: 15px 32px;
+    margin: 0.5rem;
+    font-size: 16px;
+    border-radius: 15px;
+    float: left;
+    border: none;
+}
+
+.botonenviar{
+	@extend .boton;
+    background-color: $colorFive;
+}
+
+.botonreset{
+	@extend .boton;
+	background-color: $colorFour;
+}

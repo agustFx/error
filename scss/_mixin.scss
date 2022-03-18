@@ -1,0 +1,18 @@
+@mixin shadow{
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+h1, h2, .mainUs-itemtwo, label, span{
+	@include shadow;
+}
+
+@mixin paddingandmargin{
+	padding: 3rem;
+	margin: 0;
+	
+}
+
+.main-index, .main-us, .main-review, .main-helpcenter, .main-socialmedia{
+	@include paddingandmargin;
+}
+

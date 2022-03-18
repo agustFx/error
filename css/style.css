@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+body {
+  font-family: "Varela Round"; }
+
+ul li {
+  list-style-type: none; }
+
+header, footer {
+  background-color: slategray; }
+
+.index-encabezado {
+  color: white; }
+  .index-encabezado h1 {
+    font-size: 3.5rem; }
+  .index-encabezado h2 {
+    font-size: 1.5rem; }
+
+.mainUs-text .mainUs-item {
+  color: lightslategrey;
+  font-size: 7rem; }
+
+.mainUs-text span {
+  color: lightsteelblue; }
+
+.mainUs-text .mainUs-itemtwo {
+  color: white;
+  font-size: 1.2rem; }
+
+.review-item, .review-itemtwo, .helpcenter-encabezado-two {
+  color: white; }
+
+.main-review .review-img {
+  padding-bottom: 2rem; }
+
+.main-review .review-itemtwo {
+  padding-top: 2rem; }
+
+.helpcenter-songbox {
+  padding-top: 1.5rem;
+  padding-bottom: 6rem; }
+
+.imgs-socialmedia {
+  padding: 5rem; }
+
+.navbar-collapse {
+  justify-content: flex-end; }
+  .navbar-collapse .navbar-nav .active > .nav-link {
+    color: lightcyan; }
+  .navbar-collapse .navbar-nav .nav-link {
+    color: white; }
+
+.index-body {
+  background-image: url(../assets/img/bg-5.JPEG); }
+
+.us-body {
+  background-image: url(../assets/img/bg-4.JPEG); }
+
+.review-body {
+  background-image: url(../assets/img/bg-7.JPEG); }
+
+.helpcenter-body {
+  background-image: url(../assets/img/bg-11.JPEG); }
+
+.socialmedia-body {
+  background-image: url(../assets/img/bg-12.JPEG); }
+
+.index-body, .us-body, .review-body, .helpcenter-body, .socialmedia-body {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.helpcenter-encabezadoA, .helpcenter-encabezadoB, .helpcenter-encabezadoC {
+  color: lightslategrey;
+  font-size: 5rem; }
+
+.helpcenter-encabezadoB {
+  color: lightsteelblue; }
+
+.helpcenter-encabezadoC {
+  color: silver; }
+
+.boton, .botonenviar, .botonreset {
+  background-color: silver;
+  color: black;
+  padding: 15px 32px;
+  margin: 0.5rem;
+  font-size: 16px;
+  border-radius: 15px;
+  float: left;
+  border: none; }
+
+.botonenviar {
+  background-color: lightsteelblue; }
+
+.botonreset {
+  background-color: dimgray; }
+
+h1, h2, .mainUs-itemtwo, label, span {
+  text-shadow: black 0.1em 0.1em 0.2em; }
+
+.main-index, .main-us, .main-review, .main-helpcenter, .main-socialmedia {
+  padding: 3rem;
+  margin: 0; }
+
+footer {
+  padding: 3rem; }

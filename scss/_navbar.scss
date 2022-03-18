@@ -1,0 +1,13 @@
+.navbar-collapse{
+	justify-content: flex-end;
+
+	.navbar-nav{
+		.active>.nav-link{
+			color: $colorOne;
+		}
+
+		.nav-link{
+			color: $colortwo;
+		}
+	}
+}
